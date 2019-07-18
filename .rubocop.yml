@@ -67,6 +67,9 @@ Style/RaiseArgs:
 Style/SignalException:
   Enabled: false
 
+Style/StringLiterals:
+  Enabled: false
+
 Metrics/AbcSize:
   Max: 20
 
