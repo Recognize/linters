@@ -85,6 +85,9 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Max: 15
 
+Style/ClassAndModuleChildren:
+  Enabled: false
+
 Style/SingleLineBlockParams:
   Enabled: false
 
@@ -95,6 +98,9 @@ Style/WordArray:
   Enabled: false
 
 Style/RedundantSelf:
+  Enabled: false
+
+Style/StringLiteralsInInterpolation:
   Enabled: false
 
 Style/TrivialAccessors:
