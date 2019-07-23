@@ -88,16 +88,13 @@ Metrics/MethodLength:
 Style/ClassAndModuleChildren:
   Enabled: false
 
-Style/SingleLineBlockParams:
-  Enabled: false
-
 Style/FormatString:
   Enabled: false
 
-Style/WordArray:
+Style/RedundantSelf:
   Enabled: false
 
-Style/RedundantSelf:
+Style/SingleLineBlockParams:
   Enabled: false
 
 Style/StringLiteralsInInterpolation:
@@ -105,3 +102,7 @@ Style/StringLiteralsInInterpolation:
 
 Style/TrivialAccessors:
   AllowPredicates: true
+
+Style/WordArray:
+  Enabled: false
+
