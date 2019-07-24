@@ -6,8 +6,7 @@ AllCops:
     - 'script/**/*'
     - 'tmp/**/*'
     
-Rails:
-  Enabled: true
+require: rubocop-rails
 
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
