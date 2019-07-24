@@ -71,7 +71,7 @@ Style/StringLiterals:
   Enabled: false
 
 Metrics/AbcSize:
-  Max: 20
+  Max: 35
 
 Metrics/ClassLength:
   Max: 100
