@@ -88,6 +88,12 @@ Metrics/MethodLength:
 Style/ClassAndModuleChildren:
   Enabled: false
 
+Style/EmptyLines:
+  Enabled: false
+
+Style/EmptyLinesAroundBody:
+  Enabled: false
+  
 Style/FormatString:
   Enabled: false
 
