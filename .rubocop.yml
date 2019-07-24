@@ -4,7 +4,8 @@ AllCops:
     - 'db/**/*'
     - 'config/**/*'
     - 'script/**/*'
-
+    - 'tmp/**/*'
+    
 Rails:
   Enabled: true
 
