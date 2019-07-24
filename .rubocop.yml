@@ -93,6 +93,9 @@ Style/EmptyLines:
 
 Style/EmptyLinesAroundBody:
   Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
   
 Style/FormatString:
   Enabled: false
