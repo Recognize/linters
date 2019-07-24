@@ -85,17 +85,24 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Max: 15
 
-Style/SingleLineBlockParams:
+Style/ClassAndModuleChildren:
   Enabled: false
 
 Style/FormatString:
   Enabled: false
 
-Style/WordArray:
+Style/RedundantSelf:
   Enabled: false
 
-Style/RedundantSelf:
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/StringLiteralsInInterpolation:
   Enabled: false
 
 Style/TrivialAccessors:
   AllowPredicates: true
+
+Style/WordArray:
+  Enabled: false
+
