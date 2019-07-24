@@ -5,6 +5,8 @@ AllCops:
     - 'config/**/*'
     - 'script/**/*'
     - 'tmp/**/*'
+    - 'test/**/*'
+    - 'spec/**/*'
     
 require: rubocop-rails
 
