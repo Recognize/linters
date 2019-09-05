@@ -54,7 +54,7 @@ linters:
     style: short # or 'long'
 
   HexNotation:
-    enabled: true
+    enabled: false
     style: lowercase # or 'uppercase'
 
   HexValidation:
@@ -87,7 +87,7 @@ linters:
 
   NameFormat:
     enabled: true
-    convention: hyphenated_lowercase # or 'BEM', or a regex pattern
+    convention: camelcase # or 'BEM', or a regex pattern
 
   NestingDepth:
     enabled: false
@@ -97,7 +97,7 @@ linters:
     enabled: false
 
   PropertySortOrder:
-    enabled: true
+    enabled: false
     ignore_unspecified: true
     severity: warning
     order:
@@ -298,7 +298,7 @@ linters:
     enabled: true
 
   SpaceAfterComma:
-    enabled: true
+    enabled: false
 
   SpaceAfterPropertyColon:
     enabled: true
@@ -317,7 +317,7 @@ linters:
     spaces: 0
 
   StringQuotes:
-    enabled: true
+    enabled: false
     style: single_quotes
 
   TrailingSemicolon:
