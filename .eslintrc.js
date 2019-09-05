@@ -26,10 +26,14 @@ module.exports = {
     'no-undef': 2,
     'no-underscore-dangle': 0,
     'no-void': 2,
-    'quotes': [2, 'single'],
+    'quotes': 'off',
     'semi': [2, 'always']
   },
-  "globals": {
-    "gon": "readonly"
+  'globals': {
+    'gon': 'readonly'
+    'NProgress': 'readonly',
+    '$window': 'readonly',
+    '$document': 'readonly',
+    '$html': 'readonly'
   }
 };
