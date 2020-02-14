@@ -30,7 +30,7 @@ module.exports = {
     'semi': [2, 'always']
   },
   'globals': {
-    'gon': 'readonly'
+    'gon': 'readonly',
     'NProgress': 'readonly',
     '$window': 'readonly',
     '$document': 'readonly',
