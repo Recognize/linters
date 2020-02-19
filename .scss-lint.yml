@@ -50,7 +50,7 @@ linters:
     present: true
 
   HexLength:
-    enabled: true
+    enabled: false
     style: short # or 'long'
 
   HexNotation:
@@ -64,7 +64,7 @@ linters:
     enabled: true
 
   ImportantRule:
-    enabled: true
+    enabled: false
 
   ImportPath:
     enabled: true
@@ -86,7 +86,7 @@ linters:
     force_nesting: false
 
   NameFormat:
-    enabled: true
+    enabled: false
     convention: camelcase # or 'BEM', or a regex pattern
 
   NestingDepth:
@@ -295,7 +295,7 @@ linters:
     allow_single_line_rule_sets: true
 
   SingleLinePerSelector:
-    enabled: true
+    enabled: false
 
   SpaceAfterComma:
     enabled: false
