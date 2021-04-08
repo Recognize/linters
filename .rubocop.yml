@@ -28,10 +28,13 @@ Layout/MultilineOperationIndentation:
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
 
+Layout/AlignArray:
+  Enabled: true
+
 Layout/HashAlignment:
   Enabled: true
   EnforcedLastArgumentHashStyle: always_ignore
-  
+
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
