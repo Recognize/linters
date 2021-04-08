@@ -10,13 +10,13 @@ AllCops:
     
 require: rubocop-rails
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
 Layout/CaseIndentation:
   EnforcedStyle: end
 
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   Enabled: false
 
 Layout/MultilineMethodCallIndentation:
@@ -28,10 +28,13 @@ Layout/MultilineOperationIndentation:
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
 
-Layout/AlignHash:
+Layout/AlignArray:
+  Enabled: true
+
+Layout/HashAlignment:
   Enabled: true
   EnforcedLastArgumentHashStyle: always_ignore
-  
+
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
@@ -47,10 +50,6 @@ Style/Documentation:
   Enabled: false
 
 Style/BlockDelimiters:
-  Exclude:
-    - spec/**/*_spec.rb
-
-Style/BracesAroundHashParameters:
   Exclude:
     - spec/**/*_spec.rb
 
@@ -84,7 +83,7 @@ Metrics/ClassLength:
 Metrics/ModuleLength:
   Max: 100
 
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: false
 
 Metrics/MethodLength:
